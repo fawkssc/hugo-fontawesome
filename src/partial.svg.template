@@ -1,0 +1,3 @@
+<svg \{{ with .Class }}class="\{{ . }}" \{{ end }}\{{ with .Width }} width="\{{ . }}" \{{ end }}\{{ with .Height }} height="\{{ . }}" \{{ end }}{{{attributes}}} fill="\{{ .Fill | default "currentColor" }}"\{{ with .Style }} style="\{{ . }} "\{{ end }}>
+    {{{content}}}
+</svg>

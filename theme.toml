@@ -1,0 +1,16 @@
+name = "Hugo FontAwesome"
+license = "MIT"
+licenselink = "https://github.com/jefawks3/hugo-fontawesome/LICENSE"
+description = "Hugo inline FontAwesome SVGs."
+homepage = "https://github.com/jefawks3/hugo-heroicons"
+tags = ["font awesome", "icons", "fontawesome"]
+features = ["embedded svg"]
+
+[author]
+  name = "James Fawks"
+  homepage = "https://jfawks.com"
+
+[original]
+  name = "Font-Awesome"
+  homepage = "https://fontawesome.com"
+  repo = "https://github.com/FortAwesome/Font-Awesome"

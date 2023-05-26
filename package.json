@@ -1,0 +1,19 @@
+{
+  "name": "hugo-heroicons",
+  "version": "1.0.0",
+  "main": "src/compile.mjs",
+  "repository": "https://www.github.com/jefawks3/hugo-heroicons.git",
+  "author": "James Fawks <jefawks3@gmail.com>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "compile": "node src/compile.mjs"
+  },
+  "dependencies": {
+    "glob": "^10.2.4",
+    "handlebars": "^4.7.7",
+    "html-entities": "^2.3.3",
+    "node-html-parser": "^6.1.5",
+    "yargs": "^17.7.2"
+  }
+}
