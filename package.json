@@ -1,8 +1,8 @@
 {
-  "name": "hugo-heroicons",
+  "name": "hugo-fontawesome",
   "version": "1.0.0",
   "main": "src/compile.mjs",
-  "repository": "https://www.github.com/jefawks3/hugo-heroicons.git",
+  "repository": "https://www.github.com/jefawks3/hugo-fontawesome.git",
   "author": "James Fawks <jefawks3@gmail.com>",
   "type": "module",
   "license": "MIT",
