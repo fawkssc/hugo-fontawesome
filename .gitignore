@@ -1,4 +1,5 @@
 /.idea
 /font-awesome
+!/layouts/partials/font-awesome
 /node_modules
 .DS_Store
