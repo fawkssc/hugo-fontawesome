@@ -1,3 +1,3 @@
-module github.com/jefawks3/hugo-fontawesome
+module github.com/fawkssc/hugo-fontawesome
 
-go 1.17
+go 1.18
