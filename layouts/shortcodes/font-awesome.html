@@ -1,0 +1,8 @@
+{{- $params := dict "Page" .Page -}}
+{{- $params = $params | merge (dict "Icon" (cond .IsNamedParams (.Get "icon") (.Get 0))) -}}
+{{- $params = $params | merge (dict "Type" (cond .IsNamedParams (.Get "type") (.Get 1))) -}}
+{{- $params = $params | merge (dict "Class" (cond .IsNamedParams (.Get "class") (.Get 2))) -}}
+{{- $params = $params | merge (dict "Style" (cond .IsNamedParams (.Get "style") (.Get 3))) -}}
+{{- $params = $params | merge (dict "Width" (cond .IsNamedParams (.Get "width") (.Get 4))) -}}
+{{- $params = $params | merge (dict "Height" (cond .IsNamedParams (.Get "height") (.Get 5))) -}}
+{{ partial "font-awesome.html" $params }}

@@ -1,3 +1,3 @@
-{{- $style := .Style | default "solid" }}
-{{- $partial := print "font-awesome/" $style "/" .Icon ".svg" }}
+{{- $type := .Type | default "solid" }}
+{{- $partial := print "font-awesome/" $type "/" .Icon ".svg" }}
 {{ partial $partial . }}
